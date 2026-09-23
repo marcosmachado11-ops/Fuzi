@@ -2,9 +2,9 @@ name: Build e Testes CI
 
 on:
   push:
-    branches: [ "desenvolver", "main" ]
+    branches: [ "develop", "main" ]
   pull_request:
-    branches: [ "desenvolver", "main" ]
+    branches: [ "develop", "main" ]
 
 jobs:
   build-and-test:

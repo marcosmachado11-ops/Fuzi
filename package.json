@@ -4,7 +4,11 @@
   "description": "Aplicação simples de gerenciamento de tarefas (TaskManager)",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
 }
